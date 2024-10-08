@@ -486,8 +486,8 @@ class App extends React.Component {
 ```
 
 When the Button is Clicked:
-The state of the component changes (message: 'Hello, React!').
-React creates a new Virtual DOM tree that represents the updated UI:
+- The state of the component changes (message: 'Hello, React!').
+- React creates a new Virtual DOM tree that represents the updated UI:
 
 ```jsx
 
