@@ -487,7 +487,7 @@ class App extends React.Component {
 
 When the Button is Clicked:
 - The state of the component changes (message: 'Hello, React!').
-- React creates a new Virtual DOM tree that represents the updated UI:
+React creates a new Virtual DOM tree that represents the updated UI:
 
 ```jsx
 
@@ -496,10 +496,10 @@ When the Button is Clicked:
   <button>Update Message</button>
 </div>
 ```
-React compares the new Virtual DOM with the previous one:
-The <h1> element’s text content has changed from 'Hello, world!' to 'Hello, React!'.
-The <button> element remains the same.
-React updates only the text content of the <h1> element in the real DOM, leaving the rest of the DOM unchanged.
+- React compares the new Virtual DOM with the previous one:
+- The <h1> element’s text content has changed from 'Hello, world!' to 'Hello, React!'.
+- The <button> element remains the same.
+- React updates only the text content of the <h1> element in the real DOM, leaving the rest of the DOM unchanged.
 
 ## Why Reconciliation is Efficient:
 
