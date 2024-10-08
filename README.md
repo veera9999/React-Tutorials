@@ -521,7 +521,6 @@ In lists of elements, React uses keys to uniquely identify each element. Without
 Example without keys:
 
 ```jsx
-
 <ul>
   <li>Apple</li>
   <li>Banana</li>
