@@ -550,3 +550,7 @@ Here, React can uniquely identify and update the correct items, ensuring efficie
   
 **Conclusion:**
 Reconciliation is a core process in React that enables efficient updates to the DOM by comparing the current and previous Virtual DOM trees. By minimizing direct DOM manipulations and focusing only on the parts of the DOM that need updating, React significantly improves the performance of web applications, particularly in dynamic UIs where frequent updates are made. React’s reconciliation algorithm, along with its diffing process and key usage in lists, ensures that UI changes are applied efficiently, making it one of the reasons why React is known for its speed and performance.
+
+## What is the default flex direction in React Native?
+In React Native, the default flex direction is column, unlike in CSS where it’s row. This aligns well with mobile design patterns, where content is usually stacked vertically for easy navigation on smaller screens.
+
